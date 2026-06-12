@@ -1,5 +1,5 @@
 # Morphalla auto-update manifest. Regenerate with tools/publish_update.py -- do not hand-edit.
 schema 1
-rev 2
-note in-game overlay: cloud loadouts (account-synced) + share card + empty-skin filter; re-hardened UI (supersedes stale rev1)
-file	skin_studio_native/mockup/index.html	abf68e2341b30dbe96b6ed3e2a4a39e2	598344	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/2/skin_studio_native/mockup/index.html	1
+rev 3
+note overlay: toast fix (empty toast no longer visible; fades out after 5s)
+file	skin_studio_native/mockup/index.html	ec0f5922a2c2f9bea6ad1867b443621a	598924	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/3/skin_studio_native/mockup/index.html	1
