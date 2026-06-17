@@ -1,5 +1,7 @@
 # Morphalla auto-update manifest. Regenerate with tools/publish_update.py -- do not hand-edit.
 schema 1
-rev 3
-note overlay: toast fix (empty toast no longer visible; fades out after 5s)
-file	skin_studio_native/mockup/index.html	ec0f5922a2c2f9bea6ad1867b443621a	598924	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/3/skin_studio_native/mockup/index.html	1
+rev 4
+game 23534529
+note re-port for Brawlhalla patch 23534529: rebuilt modded SWF + refreshed pristine after re-obfuscation; integrity checksum fixed
+file	notes/BrawlhallaAir_current.swf	86c75694b31624359d255d24e6b2394d	1795722	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/4/notes/BrawlhallaAir_current.swf	1
+file	build/Release/replacements/BrawlhallaAir_original.swf	13e7fc9ec04f5654d052665a9dabf158	1734129	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/4/build/Release/replacements/BrawlhallaAir_original.swf	1
