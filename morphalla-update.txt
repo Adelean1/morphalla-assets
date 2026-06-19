@@ -1,7 +1,10 @@
 # Morphalla auto-update manifest. Regenerate with tools/publish_update.py -- do not hand-edit.
 schema 1
-rev 4
+rev 5
 game 23534529
-note re-port for Brawlhalla patch 23534529: rebuilt modded SWF + refreshed pristine after re-obfuscation; integrity checksum fixed
-file	notes/BrawlhallaAir_current.swf	86c75694b31624359d255d24e6b2394d	1795722	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/4/notes/BrawlhallaAir_current.swf	1
-file	build/Release/replacements/BrawlhallaAir_original.swf	13e7fc9ec04f5654d052665a9dabf158	1734129	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/4/build/Release/replacements/BrawlhallaAir_original.swf	1
+note overlay: WebView2 occlusion-throttle fix (in-game lag) + search-clear on navigate; SWF e0b3d107
+file	notes/BrawlhallaAir_current.swf	e0b3d1073c2b5c6cdf357b02be0c5dc6	1669022	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/5/notes/BrawlhallaAir_current.swf	1
+file	build/Release/replacements/BrawlhallaAir_original.swf	13e7fc9ec04f5654d052665a9dabf158	1734129	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/5/build/Release/replacements/BrawlhallaAir_original.swf	1
+file	skin_studio_native/mockup/index.html	f36d374e6e7a4f49544e56e1d022a972	103029	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/5/skin_studio_native/mockup/index.html	1
+file	x64/BrawlSkinLauncher.dll	d9074eed46a7572d56c8f72acee4f94e	128512	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/5/x64/BrawlSkinLauncher.dll	1
+file	x86/BrawlSkinLauncher.dll	3defd541785201bdc594b6cf3a034866	129024	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/5/x86/BrawlSkinLauncher.dll	1
