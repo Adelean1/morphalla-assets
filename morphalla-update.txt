@@ -1,11 +1,11 @@
 # Morphalla auto-update manifest. Regenerate with tools/publish_update.py -- do not hand-edit.
 schema 1
-rev 13
+rev 14
 game 23534529
-note catalog: add SentaiHeatwave (Scuba Raptor); fix sync_assets folder-lookup for spaced legend names
-file	notes/BrawlhallaAir_current.swf	dd338a578c68627da12827ba1aa99859	1669414	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/13/notes/BrawlhallaAir_current.swf	1
-file	build/Release/replacements/BrawlhallaAir_original.swf	13e7fc9ec04f5654d052665a9dabf158	1734129	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/13/build/Release/replacements/BrawlhallaAir_original.swf	1
-file	skin_studio_native/mockup/index.html	f36d374e6e7a4f49544e56e1d022a972	103029	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/13/skin_studio_native/mockup/index.html	1
-file	skin_studio_native/mockup/data.js	daba921e5c6cb694d1820a9fb78ef911	3149084	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/13/skin_studio_native/mockup/data.js	1
-file	x64/BrawlSkinLauncher.dll	d9074eed46a7572d56c8f72acee4f94e	128512	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/13/x64/BrawlSkinLauncher.dll	1
-file	x86/BrawlSkinLauncher.dll	3defd541785201bdc594b6cf3a034866	129024	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/13/x86/BrawlSkinLauncher.dll	1
+note catalog: filter Stance2 alt-stance duplicates (4 removed); overlay now matches the in-game roster 1:1 (763 skins)
+file	notes/BrawlhallaAir_current.swf	dd338a578c68627da12827ba1aa99859	1669414	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/14/notes/BrawlhallaAir_current.swf	1
+file	build/Release/replacements/BrawlhallaAir_original.swf	13e7fc9ec04f5654d052665a9dabf158	1734129	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/14/build/Release/replacements/BrawlhallaAir_original.swf	1
+file	skin_studio_native/mockup/index.html	f36d374e6e7a4f49544e56e1d022a972	103029	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/14/skin_studio_native/mockup/index.html	1
+file	skin_studio_native/mockup/data.js	825b691204ad5b5f06b765d7c57dd340	3148352	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/14/skin_studio_native/mockup/data.js	1
+file	x64/BrawlSkinLauncher.dll	d9074eed46a7572d56c8f72acee4f94e	128512	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/14/x64/BrawlSkinLauncher.dll	1
+file	x86/BrawlSkinLauncher.dll	3defd541785201bdc594b6cf3a034866	129024	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/14/x86/BrawlSkinLauncher.dll	1
