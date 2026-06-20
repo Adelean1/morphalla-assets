@@ -1,11 +1,11 @@
 # Morphalla auto-update manifest. Regenerate with tools/publish_update.py -- do not hand-edit.
 schema 1
-rev 15
+rev 16
 game 23534529
-note overlay: sort legends alphabetically at load so new legends (Aurus) slot in place instead of dangling at the bottom
-file	notes/BrawlhallaAir_current.swf	dd338a578c68627da12827ba1aa99859	1669414	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/15/notes/BrawlhallaAir_current.swf	1
-file	build/Release/replacements/BrawlhallaAir_original.swf	13e7fc9ec04f5654d052665a9dabf158	1734129	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/15/build/Release/replacements/BrawlhallaAir_original.swf	1
-file	skin_studio_native/mockup/index.html	889fbd7d98f3e7fe45047d359c306bfc	103324	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/15/skin_studio_native/mockup/index.html	1
-file	skin_studio_native/mockup/data.js	825b691204ad5b5f06b765d7c57dd340	3148352	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/15/skin_studio_native/mockup/data.js	1
-file	x64/BrawlSkinLauncher.dll	d9074eed46a7572d56c8f72acee4f94e	128512	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/15/x64/BrawlSkinLauncher.dll	1
-file	x86/BrawlSkinLauncher.dll	3defd541785201bdc594b6cf3a034866	129024	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/15/x86/BrawlSkinLauncher.dll	1
+note launcher: cache-bust overlay/selector nav with index.html mtime so WebView2 never serves stale HTML after an update (fixes new content not showing without manual cache clear)
+file	notes/BrawlhallaAir_current.swf	dd338a578c68627da12827ba1aa99859	1669414	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/16/notes/BrawlhallaAir_current.swf	1
+file	build/Release/replacements/BrawlhallaAir_original.swf	13e7fc9ec04f5654d052665a9dabf158	1734129	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/16/build/Release/replacements/BrawlhallaAir_original.swf	1
+file	skin_studio_native/mockup/index.html	889fbd7d98f3e7fe45047d359c306bfc	103324	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/16/skin_studio_native/mockup/index.html	1
+file	skin_studio_native/mockup/data.js	825b691204ad5b5f06b765d7c57dd340	3148352	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/16/skin_studio_native/mockup/data.js	1
+file	x64/BrawlSkinLauncher.dll	1e20d67a22c6f854e1464401a1644f4c	128512	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/16/x64/BrawlSkinLauncher.dll	1
+file	x86/BrawlSkinLauncher.dll	0ce027e6ee456296fbec56d3524d7a39	129024	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/16/x86/BrawlSkinLauncher.dll	1
