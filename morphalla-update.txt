@@ -1,10 +1,11 @@
 # Morphalla auto-update manifest. Regenerate with tools/publish_update.py -- do not hand-edit.
 schema 1
-rev 8
+rev 9
 game 23534529
-note render: include Petra (RageFighter) in all-pass; new Ctrl+Shift+F7 = weapon icons + all cosmetics
-file	notes/BrawlhallaAir_current.swf	8ed51048fbe0d254eba0299cab91c047	1669151	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/8/notes/BrawlhallaAir_current.swf	1
-file	build/Release/replacements/BrawlhallaAir_original.swf	13e7fc9ec04f5654d052665a9dabf158	1734129	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/8/build/Release/replacements/BrawlhallaAir_original.swf	1
-file	skin_studio_native/mockup/index.html	f36d374e6e7a4f49544e56e1d022a972	103029	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/8/skin_studio_native/mockup/index.html	1
-file	x64/BrawlSkinLauncher.dll	d9074eed46a7572d56c8f72acee4f94e	128512	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/8/x64/BrawlSkinLauncher.dll	1
-file	x86/BrawlSkinLauncher.dll	3defd541785201bdc594b6cf3a034866	129024	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/8/x86/BrawlSkinLauncher.dll	1
+note catalog: AURUS (4 skins) + RankedCrystalforged color + CDN renders for them
+file	notes/BrawlhallaAir_current.swf	8ed51048fbe0d254eba0299cab91c047	1669151	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/9/notes/BrawlhallaAir_current.swf	1
+file	build/Release/replacements/BrawlhallaAir_original.swf	13e7fc9ec04f5654d052665a9dabf158	1734129	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/9/build/Release/replacements/BrawlhallaAir_original.swf	1
+file	skin_studio_native/mockup/index.html	f36d374e6e7a4f49544e56e1d022a972	103029	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/9/skin_studio_native/mockup/index.html	1
+file	skin_studio_native/mockup/data.js	3c7c8311f86d0a65e83ef8d4095f9846	3145795	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/9/skin_studio_native/mockup/data.js	1
+file	x64/BrawlSkinLauncher.dll	d9074eed46a7572d56c8f72acee4f94e	128512	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/9/x64/BrawlSkinLauncher.dll	1
+file	x86/BrawlSkinLauncher.dll	3defd541785201bdc594b6cf3a034866	129024	https://cdn.jsdelivr.net/gh/Adelean1/morphalla-assets@main/updates/9/x86/BrawlSkinLauncher.dll	1
